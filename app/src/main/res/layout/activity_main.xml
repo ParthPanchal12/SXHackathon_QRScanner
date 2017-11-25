@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.example.parthdp.sxhackathon_qrscanner.MainActivity">
+
+    <Button
+        android:id="@+id/qrScanButton"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:text="Scan QR code"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="330dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/deliveryTextField"
+        android:textSize="20dp"
+        android:layout_margin="15dp"
+        android:text="Your order details here"/>
+
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/mapTaskButton"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:text="Show on Map"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="389dp" />
+</LinearLayout>
